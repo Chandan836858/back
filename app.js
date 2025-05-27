@@ -1,7 +1,7 @@
 const cors=require("cors")
 const express = require("express")
 const path = require('path');
-const ImgRouter = require("./src/routes/imgrouter")
+const ImgRouter = require("./src/routes/Imgrouter")
 
 const app = express()
 app.use(cors())
