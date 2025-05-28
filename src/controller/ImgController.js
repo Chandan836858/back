@@ -34,7 +34,7 @@ exports.getImage=async (request,response)=>{
     try{
         let dbRes=await ImgModel.find()
         dbRes=dbRes.map((ele)=>{
-            ele.image=`http://localhost:3030/all_img/${ele.image}`
+            ele.image=`http://engineeringworkpro.com/all_img/${ele.image}`
             return ele
         })
         if(dbRes){
